@@ -220,7 +220,7 @@ const HomePage: React.FC = () => {
                   </div>
                   <h3 className="text-xl font-bold text-white mb-2">Predicted Price</h3>
                   <div className="text-4xl font-bold bg-gradient-to-r from-green-300 to-emerald-300 bg-clip-text text-transparent">
-                    {formatPrice(prediction.price)}
+                    {formatPrice(prediction.price)} Lakhs
                   </div>
                 </div>
               ) : (
